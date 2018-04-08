@@ -2,7 +2,7 @@
 
 # Deploy NodeJS (Express App) to OpeNode.io
 
-### opeNode [https://www.openode.io/](https://www.openode.io/) is a reliable and fast Cloud Node.js hosting service to deploy your Node.js app instantly. In this repo, I'll share the example of Node.js app (using Express) that can be deployed to opeNode. Follow my instructions below. Happy hacking!
+### opeNode ([https://www.openode.io/](https://www.openode.io/)) is a reliable and fast Cloud Node.js hosting service to deploy your Node.js app instantly. In this repo, I'll share the example of Node.js app (using Express) that can be deployed to opeNode. Follow my instructions below. Happy hacking!
 
 ![simplinnovation_openode](https://2.bp.blogspot.com/-BPHxkXB6KXA/WsmRUh7G9KI/AAAAAAAAD-Y/F6IdZpyTZxwgZQSpuTEekxD9cxVCO7bzACLcBGAs/s320/openode.png)
 
@@ -36,17 +36,35 @@ $ node server
 #### or simply type:
 
 ```shell
-npm start
+  $ npm start
 ```
 
-#### Open *localhost:3002* via browser, then try also to open *localhost:3002/something*. If everything's fine, the response will be like picture below:
+#### Open *localhost:3002* via browser, then try also to open *localhost:3002/something*. If everything's fine, the response will be similar to the picture below:
 
-Picture
+![simplinnovation_ok](
+https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_working.png)
 
 #### 6. So your app is working fine locally. Now, it's time to deploy to opeNode:
 
 ```shell
 $ openode deploy
+```
+
+#### Answer some questions & follow its process until done.
+
+```shell
+Would you like to [l]ogin or [r]egister a new account?:  (r) l
+email:  lintang@wisesa.com
+password: *****
+[DDD MMM dd yyyy hh:mm:ss GMT+0700 (SE Asia Standard Time)] -  [+] Authentication valid.
+Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): lintang
+```
+
+#### On last step, we will get our app's URL on opeNode. Finish!
+
+```shell
+[ { location: 'france',
+    result: { result: 'success', URL: 'http://lin.fr.openode.io/' } } ]
 ```
 
 ### More information [click here](https://www.openode.io/openode-cli).
