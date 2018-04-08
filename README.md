@@ -11,26 +11,26 @@
 #### 2. Install opeNode CLI (Command Line Interface) globally:
 
 ```shell
-$ npm install -g openode
+  $ npm install -g openode
 ```
 
 #### 3. Clone the Node.js boilerplate from my repo:
 
 ```shell
-$ git clone https://github.com/LintangWisesa/OpeNode_Deploy_Example.git
+  $ git clone https://github.com/LintangWisesa/OpeNode_Deploy_Example.git
 ```
 
 #### 4. Go to the repo then install all packages needed:
 
 ```shell
-$ cd OpeNode_Deploy_Example
-$ npm install
+  $ cd OpeNode_Deploy_Example
+  $ npm install
 ```
 
 #### 5. Edit Express app route on routes/renderer.js! Make sure there is no error on your app by running server.js. Server will be running by default on localhost:3002!
 
 ```shell
-$ node server
+  $ node server
 ```
 
 #### or simply type:
@@ -47,24 +47,26 @@ https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/se
 #### 6. So your app is working fine locally. Now, it's time to deploy to opeNode:
 
 ```shell
-$ openode deploy
+  $ openode deploy
 ```
 
 #### Answer some questions & follow its process until done.
 
 ```shell
-Would you like to [l]ogin or [r]egister a new account?:  (r) l
-email:  lintang@wisesa.com
-password: *****
-[DDD MMM dd yyyy hh:mm:ss GMT+0700 (SE Asia Standard Time)] -  [+] Authentication valid.
-Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): lintang
+  Would you like to [l]ogin or [r]egister a new account?:  (r) l
+  email:  lintang@wisesa.com
+  password: *****
+
+  [DDD MMM dd yyyy hh:mm:ss GMT+0700 (SE Asia Standard Time)] -  [+] Authentication valid.
+  
+  Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): lintang
 ```
 
 #### On last step, we will get our app's URL on opeNode.
 
 ```shell
-[ { location: 'france',
-    result: { result: 'success', URL: 'http://my_url.fr.openode.io/' } } ]
+  [ { location: 'france',
+      result: { result: 'success', URL: 'http://my_url.fr.openode.io/' } } ]
 ```
 
 #### Try to open that URL via browser. Finish! Your app has just been deployed!
