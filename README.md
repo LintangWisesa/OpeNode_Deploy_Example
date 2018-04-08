@@ -60,11 +60,13 @@ password: *****
 Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): lintang
 ```
 
-#### On last step, we will get our app's URL on opeNode. Finish!
+#### On last step, we will get our app's URL on opeNode.
 
 ```shell
 [ { location: 'france',
-    result: { result: 'success', URL: 'http://lin.fr.openode.io/' } } ]
+    result: { result: 'success', URL: 'http://my_url.fr.openode.io/' } } ]
 ```
+
+#### Try to open that URL via browser. Finish!
 
 ### More information [click here](https://www.openode.io/openode-cli).
