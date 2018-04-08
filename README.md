@@ -67,6 +67,9 @@ Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): l
     result: { result: 'success', URL: 'http://my_url.fr.openode.io/' } } ]
 ```
 
-#### Try to open that URL via browser. Finish!
+#### Try to open that URL via browser. Finish! Your app has just been deployed!
+
+![simplinnovation_online](
+https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_online.png)
 
 ### More information [click here](https://www.openode.io/openode-cli).
