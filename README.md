@@ -53,13 +53,13 @@ https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/se
 #### Answer some questions & follow its process until done.
 
 ```shell
-  Would you like to [l]ogin or [r]egister a new account?:  (r) l
-  email:  lintang@wisesa.com
-  password: *****
+    Would you like to [l]ogin or [r]egister a new account?:  (r) l
+    email:  lintang@wisesa.com
+    password: *****
 
-  [DDD MMM dd yyyy hh:mm:ss GMT+0700 (SE Asia Standard Time)] -  [+] Authentication valid.
+    [DDD MMM dd yyyy hh:mm:ss GMT+0700 (SE Asia Standard Time)] -  [+] Authentication valid.
   
-  Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): lintang
+    Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): lintang
 ```
 
 #### On last step, we will get our app's URL on opeNode.
