@@ -75,3 +75,14 @@ https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/se
 https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_online.png)
 
 ### More information [click here](https://www.openode.io/openode-cli).
+
+#
+
+#### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
+
+[Facebook](https://www.facebook.com/lintangbagus) | 
+[Twitter](https://twitter.com/Lintang_Wisesa) |
+[Google+](https://plus.google.com/u/0/+LintangWisesa1) |
+[Youtube](https://www.youtube.com/user/lintangbagus) | 
+:octocat: [GitHub](https://github.com/LintangWisesa) |
+[Hackster](https://www.hackster.io/lintangwisesa)
