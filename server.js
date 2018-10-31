@@ -8,7 +8,10 @@ app.set('port', port);
 
 var server = http.createServer(app);
 
-server.listen(port);
+server.listen(port, ()=>{
+  console.log('Server aktif di port 3002!')
+});
+
 server.on('error', onError);
 server.on('listening', onListening);
 
