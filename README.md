@@ -44,10 +44,10 @@
 ![simplinnovation_ok](
 https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_working.png)
 
-#### 6. So your app is working fine locally. Now, it's time to deploy to opeNode:
+#### 6. So your app is working fine locally. Close your server _(CTRL + C)_ then create a Dockerfile:
 
 ```shell
-  $ openode deploy
+  $ openode template
 ```
 
 #### Answer some questions & follow its process until done.
@@ -62,10 +62,16 @@ https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/se
     Type your subdomain sitename (Example: my-site) OR custom domain (mysite.com): lintang
 ```
 
+#### 7. Finally, it's time to deploy to opeNode:
+
+```shell
+  $ openode deploy
+```
+
 #### On last step, we will get our app's URL on opeNode.
 
 ```shell
-  [ { location: 'france',
+  [ { location: 'usa',
       result: { result: 'success', URL: 'http://my_url.fr.openode.io/' } } ]
 ```
 
